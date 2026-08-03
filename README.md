@@ -4,7 +4,7 @@ Welcome to my technical portfolio. This repository documents an enterprise-grade
 
 ---
 
-## 💼 Business Case
+## 💼 Business Scenario
 Our organization needed to secure remote workstations, enforce security compliance, and automate user onboarding without physical IT intervention. To achieve this, we designed and deployed a scalable hybrid infrastructure bridging on-premises Active Directory with cloud-based endpoint management.
 
 ---
