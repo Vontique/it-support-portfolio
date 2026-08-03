@@ -4,7 +4,7 @@ Welcome to my technical portfolio. This repository documents an enterprise-grade
 
 ---
 
-## 💼 Business Case (The "Why")
+## 💼 Business Case
 Our organization needed to secure remote workstations, enforce security compliance, and automate user onboarding without physical IT intervention. To achieve this, we designed and deployed a scalable hybrid infrastructure bridging on-premises Active Directory with cloud-based endpoint management.
 
 ---
@@ -20,14 +20,14 @@ Our organization needed to secure remote workstations, enforce security complian
 
 ## 🏗️ Lab Architecture Overview
 
-### Phase 1: Local Infrastructure Build (TESDA NC II Level)
+### Phase 1: Local Infrastructure Build
 * Deployed an isolated internal network using a hypervisor housing a Windows Server 2022 Domain Controller and a Windows client VM.
 * Configured AD DS, DNS, and DHCP roles for the mock domain `manilacorp.local`.
 * Structured organizational units (`PH_HQ_Users`, `IT_Dept`, `Sales_Dept`) and used a PowerShell script to bulk-import 20 mock users via CSV.
 * Enforced security baselines, desktop configurations, and access restrictions through Group Policies (GPOs).
 
-### Phase 2: The Hybrid Identity Bridge (Entra ID Level)
-* Activated a sandbox Microsoft 365 Enterprise tenant (`manilacorp.onmicrosoft.com`).
+### Phase 2: Hybrid Identity Bridge (Entra ID)
+* Activated a sandbox Microsoft 365 Enterprise tenant (`michaelabarintos20gmail.onmicrosoft.com`).
 * Configured Microsoft Entra Connect on the local domain controller to bridge on-premises Active Directory objects with the cloud.
 * Validated directory synchronization, ensuring PowerShell-provisioned local users replicated successfully to the Entra ID Admin Center.
 
