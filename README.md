@@ -27,7 +27,7 @@ Our organization needed to secure remote workstations, enforce security complian
 * Enforced security baselines, desktop configurations, and access restrictions through Group Policies (GPOs).
 
 ### Phase 2: Hybrid Identity Bridge (Entra ID)
-* Activated a sandbox Microsoft 365 Enterprise tenant (`michaelabarintos20gmail.onmicrosoft.com`).
+* Activated a trial sandbox Microsoft 365 Business Premium tenant (`michaelabarintos20gmail.onmicrosoft.com`).
 * Configured Microsoft Entra Connect on the local domain controller to bridge on-premises Active Directory objects with the cloud.
 * Validated directory synchronization, ensuring PowerShell-provisioned local users replicated successfully to the Entra ID Admin Center.
 
