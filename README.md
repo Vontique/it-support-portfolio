@@ -11,7 +11,7 @@ Our organization needed to secure remote workstations, enforce security complian
 
 ## 🛠️ Technical Stack
 * **Hypervisors & Virtualization:** Oracle VirtualBox / Hyper-V (Internal Networking)
-* **Operating Systems:** Windows Server 2022, Windows 11 Enterprise (25H2)
+* **Operating Systems:** Windows Server 2022, Windows 11 Pro (25H2), Windows 10 Pro (22H2)
 * **Directory Services & Identity:** Active Directory Domain Services (AD DS), Microsoft Entra ID, Microsoft Entra Connect
 * **Endpoint Management & ITSM:** Microsoft Intune, Windows Autopilot, Group Policy (GPO), Intune Connector for Active Directory
 * **Automation:** PowerShell, CSV Batch Provisioning
