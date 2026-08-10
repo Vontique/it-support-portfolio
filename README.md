@@ -47,3 +47,6 @@ Our organization needed to secure remote workstations, enforce security complian
 * **[INC-1043: Microsoft Entra ID Conditional Access Policy Enforcement & Verification](tickets/INC-1043.md)**
   * **Status:** Resolved ✅
   * **Summary:** Enforced a network-based location restriction policy blocking unauthorized cloud access from untrusted locations, validated via Entra sign-in error logs (53003).
+* **[INC-1044: Active Directory Account Lockout & Password Reset Resolution](tickets/INC-1044.md)**
+  * **Status:** Resolved ✅
+  * **Summary:** Remediated a locked user account via ADUC, cleared lockout threshold flags, and executed a temporary password reset enforcing a mandatory change at next logon for client `sgomez`.
