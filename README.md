@@ -44,9 +44,12 @@ Our organization needed to secure remote workstations, enforce security complian
 * **[INC-1042: Windows Autopilot ESP Timeout & Hybrid Join Resolution](./tickets/INC-1042.md)**
   * **Status:** Resolved ✅
   * **Summary:** Bypassed OOBE Enrollment Status Page provisioning timeouts (`0x800705b4`) via a Windows 11 25H2 build upgrade, resolved domain controller routing blocks, and verified full hybrid-joined status for client `sgomez`.
-* **[INC-1043: Microsoft Entra ID Conditional Access Policy Enforcement & Verification](tickets/INC-1043.md)**
+* **[INC-1043: Microsoft Entra ID Conditional Access Policy Enforcement & Verification](./tickets/INC-1043.md)**
   * **Status:** Resolved ✅
   * **Summary:** Enforced a network-based location restriction policy blocking unauthorized cloud access from untrusted locations, validated via Entra sign-in error logs (53003).
-* **[INC-1044: Active Directory Account Lockout & Password Reset Resolution](tickets/INC-1044.md)**
+* **[INC-1044: Active Directory Account Lockout & Password Reset Resolution](./tickets/INC-1044.md)**
   * **Status:** Resolved ✅
   * **Summary:** Remediated a locked user account via ADUC, cleared lockout threshold flags, and executed a temporary password reset enforcing a mandatory change at next logon for client `sgomez`.
+* **[INC-1045: Workstation IP Configuration & DHCP Lease Troubleshooting](./tickets/INC-1045.md)**
+  * Status: Resolved ✅
+  * Summary: Diagnosed and resolved an APIPA network drop (169.254.x.x) resulting from an unidentified network state, verified DHCP client service and gateway connectivity, and successfully restored full IP communication for client `sgomez`.
