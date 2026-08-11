@@ -1,0 +1,36 @@
+## INC-1046: Active Directory Disabled Account Remediation
+
+---
+
+### Incident Overview
+* **Incident ID:** INC-1046
+* **Date / Time:** 2026-08-11
+* **Category:** Helpdesk Support / Active Directory User Management
+* **Severity:** Low (Routine Access Recovery)
+* **Status:** Resolved / Documented
+
+---
+
+### Issue Description
+User `locus` reported being completely blocked from accessing corporate domain resources, presenting an explicit authentication error stating that their user account has been disabled.
+
+---
+
+### Diagnostics & Investigation
+1. **Directory Search:** Accessed Active Directory Users and Computers (ADUC) on the domain controller and navigated to the user object.
+2. **Visual & Attribute Verification:** Identified the visual indicator (down-arrow icon) on the user object and confirmed via the Account properties tab that the account flag was set to disabled.
+
+---
+
+### Remediation & Resolution
+1. **Account Enablement:** Modified the account properties in ADUC to clear the disabled flag and re-enabled the user profile.
+2. **State Verification:** Refreshed the directory container to confirm status normalization and instructed the user to re-authenticate.
+
+---
+
+### Evidence & Documentation
+
+| ADUC Account Status Remediation |
+| :---: |
+| ![Disabled Account State](../screenshots/inc-1046-pic1.png) |
+| ![Account Enabled Successfully](../screenshots/inc-1046-pic2.png) |
