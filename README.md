@@ -51,8 +51,8 @@ Our organization needed to secure remote workstations, enforce security complian
   * **Status:** Resolved ✅
   * **Summary:** Remediated a locked user account via ADUC, cleared lockout threshold flags, and executed a temporary password reset enforcing a mandatory change at next logon for client `sgomez`.
 * **[INC-1045: Workstation IP Configuration & DHCP Lease Troubleshooting](./tickets/INC-1045.md)**
-  * Status: Resolved ✅
-  * Summary: Diagnosed and resolved an APIPA network drop (169.254.x.x) resulting from an unidentified network state, verified DHCP client service and gateway connectivity, and successfully restored full IP communication for client `sgomez`.
+  * **Status:** Resolved ✅
+  * **Summary:** Diagnosed and resolved an APIPA network drop (169.254.x.x) resulting from an unidentified network state, verified DHCP client service and gateway connectivity, and successfully restored full IP communication for client `sgomez`.
 * **[INC-1055: Print Spooler Recovery & Remote Desktop Connectivity](./tickets/INC-1055.md)**
   * **Status:** Resolved ✅
   * **Summary:** Established a remote desktop connection to client `CLIENT08`, remediated a disabled Print Spooler service via `services.msc`, mapped network printer `PRINTER01` via the AD DC environment, and verified print queue restoration.
