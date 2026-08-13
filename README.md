@@ -18,6 +18,16 @@ Our organization needed to secure remote workstations, enforce security complian
 
 ---
 
+## 🔍 Diagnostic & Troubleshooting Toolkit
+To effectively isolate and resolve enterprise incidents, daily operations leverage a suite of built-in Windows utilities, command-line tools, and administrative consoles:
+* **Endpoint & MDM Diagnostics:** `mdmdiagnosticstool.exe` (Autopilot log extraction and provisioning telemetry analysis)
+* **Identity & Group Policy:** `gpresult /r` (GPO scope and targeted policy evaluation)
+* **Service Management:** `services.msc` (Local and remote service control, Print Spooler management)
+* **Network Diagnostics:** `ipconfig` (`/release`, `/renew`), `ping`, `netsh winsock reset` (DHCP lease validation and stack flushing)
+* **Active Directory & Logs:** `ADUC` (Active Directory Users and Computers), Event Viewer (`Event ID 30120`, `30140` for ODJ connector tracking)
+
+---
+
 ## 🏗️ Lab Architecture Overview
 
 ### Phase 1: Local Infrastructure Build
