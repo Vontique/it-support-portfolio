@@ -51,7 +51,7 @@ To effectively isolate and resolve enterprise incidents, daily operations levera
 
 ## 🎫 Featured Incident Logs & Tickets
 
-* **[INC-1042: Windows Autopilot ESP Timeout & Hybrid Join Resolution](./tickets/INC-1042.md)**
+* **[INC0010005: Windows Autopilot ESP Timeout & Hybrid Join Resolution](./tickets/INC-1042.md)**
   * **Status:** Resolved ✅
   * **Summary:** Bypassed OOBE Enrollment Status Page provisioning timeouts (`0x800705b4`) via a Windows 11 25H2 build upgrade, resolved domain controller routing blocks, and verified full hybrid-joined status for client `sgomez`.
 * **[INC-1043: Microsoft Entra ID Conditional Access Policy Enforcement & Verification](./tickets/INC-1043.md)**
