@@ -61,7 +61,7 @@ To effectively isolate and resolve enterprise incidents, daily operations levera
 * **[INC0010005: Windows Autopilot ESP Timeout & Hybrid Join Resolution](./tickets/INC0010005.md)**
   * **Status:** Resolved ✅ (Documented via ServiceNow KB `KB0010001`)
   * **Summary:** Bypassed OOBE Enrollment Status Page provisioning timeouts (`0x800705b4`) via a Windows 11 25H2 build upgrade, resolved domain controller routing blocks, verified full hybrid-joined status for client `sgomez`, and converted the resolution into a published Known Error Knowledge Base article.
-* **[INC-1043: Microsoft Entra ID Conditional Access Policy Enforcement & Verification](./tickets/INC-1043.md)**
+* **[INC0010007: Microsoft Entra ID Conditional Access Policy Enforcement & Verification](./tickets/INC-1043.md)**
   * **Status:** Resolved ✅
   * **Summary:** Enforced a network-based location restriction policy blocking unauthorized cloud access from untrusted locations, validated via Entra sign-in error logs (53003).
 * **[INC-1044: Active Directory Account Lockout & Password Reset Resolution](./tickets/INC-1044.md)**
