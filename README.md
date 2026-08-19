@@ -67,7 +67,7 @@ To effectively isolate and resolve enterprise incidents, daily operations levera
 * **[INC0010008: Active Directory Account Lockout & Password Reset Resolution](./tickets/INC0010008.md)**
   * **Status:** Resolved ✅
   * **Summary:** Remediated a locked user account via ADUC, cleared lockout threshold flags, and executed a temporary password reset enforcing a mandatory change at next logon for client `sgomez`.
-* **[INC-1045: Workstation IP Configuration & DHCP Lease Troubleshooting](./tickets/INC-1045.md)**
+* **[INC-1045: Workstation IP Configuration & DHCP Lease Troubleshooting](./tickets/INC0010009.md)**
   * **Status:** Resolved ✅
   * **Summary:** Diagnosed and resolved an APIPA network drop (169.254.x.x) resulting from an unidentified network state, verified DHCP client service and gateway connectivity, and successfully restored full IP communication for client `sgomez`.
 * **[INC-1055: Print Spooler Recovery & Remote Desktop Connectivity](./tickets/INC-1055.md)**
