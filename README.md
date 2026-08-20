@@ -70,6 +70,6 @@ To effectively isolate and resolve enterprise incidents, daily operations levera
 * **[INC0010009: Workstation IP Configuration & DHCP Lease Troubleshooting](./tickets/INC0010009.md)**
   * **Status:** Resolved ✅
   * **Summary:** Diagnosed and resolved an APIPA network drop (169.254.x.x) resulting from an unidentified network state, verified DHCP client service and gateway connectivity, and successfully restored full IP communication for client `sgomez`.
-* **[INC-1055: Print Spooler Recovery & Remote Desktop Connectivity](./tickets/INC-1055.md)**
+* **[INC0010020: Print Spooler Recovery & Remote Desktop Connectivity](./tickets/INC0010020.md)**
   * **Status:** Resolved ✅
   * **Summary:** Established a remote desktop connection to client `CLIENT08`, remediated a disabled Print Spooler service via `services.msc`, mapped network printer `PRINTER01` via the AD DC environment, and verified print queue restoration.
