@@ -5,7 +5,7 @@ Welcome to my technical portfolio. This repository documents an enterprise-grade
 ---
 
 ## 💼 Business Scenario
-Our organization needed to secure remote workstations, enforce security compliance, and automate user onboarding without physical IT intervention, while establishing structured incident management and knowledge-sharing practices. To achieve this, we designed and deployed a scalable hybrid infrastructure bridging on-premises Active Directory with cloud-based endpoint management, backed by a fully integrated ServiceNow IT Service Management (ITSM) platform.
+Our organization, ManilaCorp, needed to secure remote workstations, enforce security compliance, and automate user onboarding without physical IT intervention, while establishing structured incident management and knowledge-sharing practices. To achieve this, we designed and deployed a scalable hybrid infrastructure bridging on-premises Active Directory with cloud-based endpoint management, backed by a fully integrated ServiceNow IT Service Management (ITSM) platform.
 
 ---
 
@@ -73,3 +73,5 @@ To effectively isolate and resolve enterprise incidents, daily operations levera
 * **[INC0010020: Print Spooler Recovery & Remote Desktop Connectivity](./tickets/INC0010020.md)**
   * **Status:** Resolved ✅
   * **Summary:** Established a remote desktop connection to client `CLIENT08`, remediated a disabled Print Spooler service via `services.msc`, mapped network printer `PRINTER01` via the AD DC environment, and verified print queue restoration.
+#### 📂 Explore All Ticket Documentation
+* **[Browse the Full Tickets Directory](./tickets/)**—Access the complete repository folder containing all individual markdown incident files and documentation logs.
