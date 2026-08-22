@@ -37,10 +37,18 @@ To effectively isolate and resolve enterprise incidents, daily operations levera
 * Structured organizational units (`PH_HQ_Users`, `IT_Dept`, `Sales_Dept`) and used a PowerShell script to bulk-import 20 mock users via CSV.
 * Enforced security baselines, desktop configurations, and access restrictions through Group Policies (GPOs).
 
+<p align="center">
+  <img src="./screenshots/phase1-aduc.jpg" alt="Active Directory Users and Computers" width="85%">
+</p>
+
 ### Phase 2: Hybrid Identity Bridge (Entra ID)
 * Activated a trial sandbox Microsoft 365 Business Premium tenant (`michaelabarintos20gmail.onmicrosoft.com`).
 * Configured Microsoft Entra Connect on the local domain controller to bridge on-premises Active Directory objects with the cloud.
 * Validated directory synchronization, ensuring PowerShell-provisioned local users replicated successfully to the Entra ID Admin Center.
+
+<p align="center">
+  <img src="./screenshots/phase2-aduc.jpg" alt="Active Directory Users and Computers" width="85%">
+</p>
 
 ### Phase 3: Modern Endpoint Management (Intune & Autopilot)
 * Enabled automatic enrollment so synced cloud accounts register client VMs directly into Microsoft Intune.
@@ -48,11 +56,19 @@ To effectively isolate and resolve enterprise incidents, daily operations levera
 * Silently pushed essential software packages (Google Chrome, M365 Apps) during setup.
 * Extracted hardware hashes via PowerShell, configured Autopilot deployment profiles, customized the OOBE sequence, and executed zero-touch provisioning.
 
+<p align="center">
+  <img src="./screenshots/phase3-aduc.jpg" alt="Active Directory Users and Computers" width="85%">
+</p>
+
 ### Phase 4: ITSM Operations & Knowledge Management (ServiceNow)
 * Provisioned a ServiceNow Personal Developer Instance (PDI) to simulate enterprise service desk workflows.
 * Configured user groups (`IT Support`), assigned ITIL roles (`itil`, `itil_admin`), and managed incident escalation paths.
 * Handled end-to-end incident ticketing from user intake (Service Portal) through tier-2 triage, work-note logging, and formal resolution.
 * Bridged technical problem resolution into enterprise documentation by authoring and publishing official Known Error articles within the ServiceNow Knowledge Portal.
+
+<p align="center">
+  <img src="./screenshots/phase4-aduc.jpg" alt="Active Directory Users and Computers" width="85%">
+</p>
 
 ---
 
