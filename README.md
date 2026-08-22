@@ -38,7 +38,7 @@ To effectively isolate and resolve enterprise incidents, daily operations levera
 * Enforced security baselines, desktop configurations, and access restrictions through Group Policies (GPOs).
 
 <p align="center">
-  <img src="./screenshots/phase1-aduc.jpg" alt="Active Directory Users and Computers" width="85%">
+  <img src="./screenshots/phase1-aduc.jpg" alt="Active Directory Users and Computers" width="75%">
 </p>
 
 ### Phase 2: Hybrid Identity Bridge (Entra ID)
@@ -47,7 +47,7 @@ To effectively isolate and resolve enterprise incidents, daily operations levera
 * Validated directory synchronization, ensuring PowerShell-provisioned local users replicated successfully to the Entra ID Admin Center.
 
 <p align="center">
-  <img src="./screenshots/phase2-aduc.jpg" alt="Active Directory Users and Computers" width="85%">
+  <img src="./screenshots/phase2-aduc.jpg" alt="Active Directory Users and Computers" width="75%">
 </p>
 
 ### Phase 3: Modern Endpoint Management (Intune & Autopilot)
@@ -57,7 +57,7 @@ To effectively isolate and resolve enterprise incidents, daily operations levera
 * Extracted hardware hashes via PowerShell, configured Autopilot deployment profiles, customized the OOBE sequence, and executed zero-touch provisioning.
 
 <p align="center">
-  <img src="./screenshots/phase3-aduc.jpg" alt="Active Directory Users and Computers" width="85%">
+  <img src="./screenshots/phase3-aduc.jpg" alt="Active Directory Users and Computers" width="75%">
 </p>
 
 ### Phase 4: ITSM Operations & Knowledge Management (ServiceNow)
@@ -67,7 +67,7 @@ To effectively isolate and resolve enterprise incidents, daily operations levera
 * Bridged technical problem resolution into enterprise documentation by authoring and publishing official Known Error articles within the ServiceNow Knowledge Portal.
 
 <p align="center">
-  <img src="./screenshots/phase4-aduc.jpg" alt="Active Directory Users and Computers" width="85%">
+  <img src="./screenshots/phase4-aduc.jpg" alt="Active Directory Users and Computers" width="75%">
 </p>
 
 ---
